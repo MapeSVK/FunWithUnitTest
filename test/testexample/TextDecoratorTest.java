@@ -17,6 +17,22 @@ import static org.junit.Assert.*;
  * @author Jeppe
  */
 public class TextDecoratorTest {
+
+    @BeforeClass
+    public static void setUpClass() throws Exception {
+    }
+
+    @AfterClass
+    public static void tearDownClass() throws Exception {
+    }
+
+    @Before
+    public void setUp() throws Exception {
+    }
+
+    @After
+    public void tearDown() throws Exception {
+    }
     /**
      * Test of allCaps method, of class TextDecorator.
      */
